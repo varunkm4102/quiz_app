@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.quiz-container{
+    overflow: hidden;
+    background-color: #fff;
+    width: 600px;
+    border-radius:5px;
+    box-shadow: 0 10px 5px rgba(100,100, 100, 0.1);
+    max-width: 100%;
+}
+.quiz-header{
+    padding: 4rem;
+}
+h1{
+    margin: 0;
+}
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+ul li{
+    padding: 1rem 0rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    outline: none;
+    transition: border-color 0.5s;
+    cursor: pointer ;
+  }
+  
+  input[type="radio"]:checked {
+    border-color: rgb(223, 173, 234);
+    background-color: rgb(136, 82, 186);
+    color: red;
+  }
+button{
+    cursor: pointer;
+    background-color: rgb(136, 82, 186);
+    border: none;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 1.4rem;
+}
+button:hover{
+    background-color: rgb(106, 71, 140);
+}
